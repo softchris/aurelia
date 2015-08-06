@@ -1,0 +1,22 @@
+[
+	{ 
+		"id" : 1,
+		"name" : "Captain America",
+		"allegiance" : "Good"
+	},
+	{ 
+		"id" : 2,
+		"name" : "Hulk",
+		"allegiance" : "Good"
+	},
+	{ 
+		"id" : 3,
+		"name" : "Ironman",
+		"allegiance" : "Good"
+	},
+	{ 
+		"id" : 4,
+		"name" : "Hawk",
+		"allegiance" : "Good"
+	}
+]

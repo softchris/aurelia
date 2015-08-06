@@ -1,0 +1,25 @@
+<template>
+<div class="container">
+	<p>
+		<input type="text" value.bind="newAvenger" /> <button click.trigger="add()">Add</button>
+		<table class="table table-striped">
+			<tr>
+				<th>Name</th>
+				<th>&nbsp;</th>
+				<th>&nbsp;</th>
+			</tr>
+			<tr repeat.for="avenger of avengers">
+				<td>
+					${ avenger.name }
+				</td>
+				<td>
+					<a route-href="route:details; params.bind:{ id:avenger.id }" class="btn btn-default">Details</a>
+				</td>
+				<td>
+					<a route-href="route:edit; params.bind:{ id:avenger.id }" class="btn btn-default">Edit</a>
+				</td>
+			</tr>
+		</table>
+	</p>
+</div>
+</template>

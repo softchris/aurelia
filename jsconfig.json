@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"target" : "ES6",
+		"experimentalDecorators": true
+			
+	},
+	"files" :[
+		"app.js","main.js", "avengers/*.js"
+	]
+	
+	
+}

@@ -1,0 +1,20 @@
+<template>
+	<nav-menu router.bind="router"></nav-menu>
+	<div class="well">
+		<p>
+		<compose view-model="./currentDate"></compose>
+		<div>${message}</div>	
+		</p>
+		<p>
+			<div>${message2}</div>	
+		</p>	
+		<button class="btn" click.trigger="change()">Change</button>
+	</div>
+	
+	<spinner router.bind="router"></spinner>
+	
+	
+	<p>
+		<router-view></router-view>
+	</p>
+</template>
